@@ -1,142 +1,61 @@
 "use client";
-import DATA from "@/DATA/data.json";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-import CategorySection from "@/components/CategorySection";
-import Sidebar from "@/components/sidebar";
-import ThemeToggle from "@/components/theme-toggle";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import type { KnowledgeData, KnowledgeSubCategory } from "@/types";
+import KnowledgeContent from "@/components/home/KnowledgeContent";
+import KnowledgeHeader from "@/components/home/KnowledgeHeader";
 
-const knowledgeItems: KnowledgeData = DATA;
+import FilterSidebar from "@/components/filter-sidebar/FilterSidebar";
+import { SidebarInset } from "@/components/ui/sidebar";
+import { filterKnowledgeData, parseMarkdownToJSON } from "@/lib/utils";
+import { KnowledgeData } from "@/types";
 
 export default function Home() {
+    const [knowledgeItems, setKnowledgeItems] = useState<KnowledgeData>({});
     const [searchTerm, setSearchTerm] = useState("");
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+    const [loading, setLoading] = useState(true);
 
-    const filterData = (data: KnowledgeData) => {
-        const filteredResults: KnowledgeData = {};
+    useEffect(() => {
+        parseMarkdownToJSON()
+            .then(setKnowledgeItems)
+            .catch(console.error)
+            .finally(() => setLoading(false));
+    }, []);
 
-        Object.entries(data).forEach(([mainCat, subCats]) => {
-            const filteredSubCats: KnowledgeSubCategory = {};
-
-            Object.entries(subCats).forEach(([subCat, items]) => {
-                const filteredItems = items.filter(
-                    (item) =>
-                        (searchTerm === "" ||
-                            item.name
-                                .toLowerCase()
-                                .includes(searchTerm.toLowerCase()) ||
-                            item.description
-                                .toLowerCase()
-                                .includes(searchTerm.toLowerCase())) &&
-                        (selectedCategories.length === 0 ||
-                            selectedCategories.includes(mainCat))
-                );
-
-                if (filteredItems.length > 0) {
-                    filteredSubCats[subCat] = filteredItems;
-                }
-            });
-
-            if (Object.keys(filteredSubCats).length > 0) {
-                filteredResults[mainCat] = filteredSubCats;
-            }
-        });
-
-        return { data: filteredResults };
-    };
-
-    const filteredData = filterData(DATA);
+    const filteredData = filterKnowledgeData({
+        data: knowledgeItems,
+        searchTerm,
+        selectedCategories,
+    });
 
     return (
-        <div className="min-h-screen ">
-            <header className="  sticky top-0 bg-background  z-10 border-b">
-                <div className="  py-4 px-4 sm:px-6 lg:px-8  flex items-center w-full justify-between">
-                    <h1 className="text-3xl font-bold font-mono  w-full">
-                        📚 Stack Atlas
-                    </h1>
-                    <div className="flex  sticky top-0  w-full items-center gap-2">
-                        <Input
-                            type="text"
-                            placeholder="Search knowledge..."
-                            className="flex-grow mr-2"
-                            value={searchTerm}
-                            onChange={(e) => setSearchTerm(e.target.value)}
-                        />
-                        <Button onClick={() => setSearchTerm("")}>Clear</Button>
-                        <ThemeToggle />
-                    </div>
-                </div>
-            </header>
-            <div className="flex ">
-                <Sidebar
-                    categories={
-                        Object.keys(knowledgeItems) as unknown as string[]
-                    }
+        <>
+            <FilterSidebar
+                data={knowledgeItems}
+                selectedCategories={selectedCategories}
+                setSelectedCategories={setSelectedCategories}
+            />
+            <SidebarInset className="relative min-h-screen">
+                <KnowledgeHeader
+                    searchTerm={searchTerm}
+                    setSearchTerm={setSearchTerm}
+                />
+                <KnowledgeContent
+                    total={Object.values(knowledgeItems).reduce(
+                        (acc, subCats) =>
+                            acc +
+                            Object.values(subCats).reduce(
+                                (acc, items) => acc + items.length,
+                                0
+                            ),
+                        0
+                    )}
+                    loading={loading}
+                    filteredData={filteredData}
                     selectedCategories={selectedCategories}
                     setSelectedCategories={setSelectedCategories}
                 />
-                <main className="flex-1">
-                    <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-                        <p>
-                            &quot;Knowledge is powerful, be careful how you use
-                            it!&quot;
-                        </p>
-                        <small>
-                            Inspired from the{" "}
-                            <a
-                                href="https://github.com/trimstray/the-book-of-secret-knowledge"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-red-500"
-                            >
-                                The Book of Secret Knowledge
-                            </a>
-                        </small>
-
-                        <div className="p-4">
-                            {selectedCategories.length > 0 && (
-                                <div className="flex items-center gap-2">
-                                    <span className="text-sm font-semibold">
-                                        Selected Categories:
-                                    </span>
-                                    <div className="flex gap-2">
-                                        {selectedCategories.map((category) => (
-                                            <Button
-                                                key={category}
-                                                variant="secondary"
-                                                size={"sm"}
-                                                onClick={() =>
-                                                    setSelectedCategories(
-                                                        selectedCategories.filter(
-                                                            (c) =>
-                                                                c !== category
-                                                        )
-                                                    )
-                                                }
-                                            >
-                                                {category}
-                                            </Button>
-                                        ))}
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-
-                        <div className="px-4 py-6 sm:px-0 ">
-                            {Object.keys(filteredData.data).map((category) => (
-                                <CategorySection
-                                    key={category}
-                                    data={filteredData.data[category]}
-                                    category={category}
-                                />
-                            ))}
-                        </div>
-                    </div>
-                </main>
-            </div>
-        </div>
+            </SidebarInset>
+        </>
     );
 }
