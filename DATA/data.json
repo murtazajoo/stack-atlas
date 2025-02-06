@@ -1,0 +1,1937 @@
+{
+    "CLI Tools": {
+        "Shells": [
+            {
+                "name": "GNU Bash",
+                "url": "https://www.gnu.org/software/bash/",
+                "description": "is an sh-compatible shell that incorporates useful features from the Korn shell and C shell."
+            },
+            {
+                "name": "Zsh",
+                "url": "https://www.zsh.org/",
+                "description": "is a shell designed for interactive use, although it is also a powerful scripting language."
+            },
+            {
+                "name": "tclsh",
+                "url": "https://tcl-lang.org/",
+                "description": "is a very powerful cross-platform shell, suitable for a huge range of uses."
+            },
+            {
+                "name": "bash-it",
+                "url": "https://github.com/Bash-it/bash-it",
+                "description": "is a framework for using, developing and maintaining shell scripts and custom commands."
+            },
+            {
+                "name": "Oh My ZSH!",
+                "url": "https://ohmyz.sh/",
+                "description": "is the best framework for managing your Zsh configuration."
+            },
+            {
+                "name": "Oh My Fish",
+                "url": "https://github.com/oh-my-fish/oh-my-fish",
+                "description": "the Fishshell framework."
+            },
+            {
+                "name": "Starship",
+                "url": "https://github.com/starship/starship",
+                "description": "the cross-shell prompt written in Rust."
+            },
+            {
+                "name": "powerlevel10k",
+                "url": "https://github.com/romkatv/powerlevel10k",
+                "description": "is a fast reimplementation of Powerlevel9k ZSH theme."
+            }
+        ],
+        "Shell plugins": [
+            {
+                "name": "z",
+                "url": "https://github.com/rupa/z",
+                "description": "tracks the folder you use the most and allow you to jump, without having to type the whole path."
+            },
+            {
+                "name": "fzf",
+                "url": "https://github.com/junegunn/fzf",
+                "description": "is a general-purpose command-line fuzzy finder."
+            },
+            {
+                "name": "zsh-autosuggestions",
+                "url": "https://github.com/zsh-users/zsh-autosuggestions",
+                "description": "Fish-like autosuggestions for Zsh."
+            },
+            {
+                "name": "zsh-syntax-highlighting",
+                "url": "https://github.com/zsh-users/zsh-syntax-highlighting",
+                "description": "Fish shell like syntax highlighting for Zsh."
+            },
+            {
+                "name": "Awesome ZSH Plugins",
+                "url": "https://github.com/unixorn/awesome-zsh-plugins",
+                "description": "A list of frameworks, plugins, themes and tutorials for ZSH."
+            }
+        ],
+        "Managers": [
+            {
+                "name": "Midnight Commander",
+                "url": "https://midnight-commander.org/",
+                "description": "is a visual file manager, licensed under GNU General Public License."
+            },
+            {
+                "name": "ranger",
+                "url": "https://github.com/ranger/ranger",
+                "description": "is a VIM-inspired filemanager for the console."
+            },
+            {
+                "name": "nnn",
+                "url": "https://github.com/jarun/nnn",
+                "description": "is a tiny, lightning fast, feature-packed file manager."
+            },
+            {
+                "name": "screen",
+                "url": "https://www.gnu.org/software/screen/",
+                "description": "is a full-screen window manager that multiplexes a physical terminal."
+            },
+            {
+                "name": "tmux",
+                "url": "https://github.com/tmux/tmux/wiki",
+                "description": "is a terminal multiplexer, lets you switch easily between several programs in one terminal."
+            },
+            {
+                "name": "tmux-cssh",
+                "url": "https://github.com/peikk0/tmux-cssh",
+                "description": "is a tool to set comfortable and easy to use functionality tmux-sessions."
+            }
+        ],
+        "Text editors": [
+            {
+                "name": "vi",
+                "url": "http://ex-vi.sourceforge.net/",
+                "description": "is one of the most common text editors on Unix."
+            },
+            {
+                "name": "vim",
+                "url": "https://www.vim.org/",
+                "description": "is a highly configurable text editor."
+            },
+            {
+                "name": "emacs",
+                "url": "https://www.gnu.org/software/emacs/",
+                "description": "is an extensible, customizable, free/libre text editor, and more."
+            },
+            {
+                "name": "micro",
+                "url": "https://github.com/zyedidia/micro",
+                "description": "is a modern and intuitive terminal-based text editor."
+            },
+            {
+                "name": "neovim",
+                "url": "https://neovim.io/",
+                "description": "is a free open source, powerful, extensible and usable code editor."
+            },
+            {
+                "name": "spacemacs",
+                "url": "https://www.spacemacs.org/",
+                "description": "a community-driven Emacs distribution."
+            },
+            {
+                "name": "spacevim",
+                "url": "https://spacevim.org/",
+                "description": "a community-driven vim distribution."
+            }
+        ],
+        "Files and directories": [
+            {
+                "name": "fd",
+                "url": "https://github.com/sharkdp/fd",
+                "description": "is a simple, fast and user-friendly alternative to find."
+            },
+            {
+                "name": "ncdu",
+                "url": "https://dev.yorhel.nl/ncdu",
+                "description": "is an easy to use, fast disk usage analyzer."
+            }
+        ],
+        "Network": [
+            {
+                "name": "PuTTY",
+                "url": "https://www.putty.org/",
+                "description": "is an SSH and telnet client, developed originally by Simon Tatham."
+            },
+            {
+                "name": "Mosh",
+                "url": "https://mosh.org/",
+                "description": "is a SSH wrapper designed to keep a SSH session alive over a volatile connection."
+            },
+            {
+                "name": "Eternal Terminal",
+                "url": "https://eternalterminal.dev/",
+                "description": "enables mouse-scrolling and tmux commands inside the SSH session."
+            },
+            {
+                "name": "nmap",
+                "url": "https://nmap.org/",
+                "description": "is a free and open source (license) utility for network discovery and security auditing."
+            },
+            {
+                "name": "zmap",
+                "url": "https://github.com/zmap/zmap",
+                "description": "is a fast single packet network scanner designed for Internet-wide network surveys."
+            },
+            {
+                "name": "Rust Scan",
+                "url": "https://github.com/RustScan/RustScan",
+                "description": "to find all open ports faster than Nmap."
+            },
+            {
+                "name": "masscan",
+                "url": "https://github.com/robertdavidgraham/masscan",
+                "description": "is the fastest Internet port scanner, spews SYN packets asynchronously."
+            },
+            {
+                "name": "pbscan",
+                "url": "https://github.com/gvb84/pbscan",
+                "description": "is a faster and more efficient stateless SYN scanner and banner grabber."
+            },
+            {
+                "name": "hping",
+                "url": "http://www.hping.org/",
+                "description": "is a command-line oriented TCP/IP packet assembler/analyzer."
+            },
+            {
+                "name": "mtr",
+                "url": "https://github.com/traviscross/mtr",
+                "description": "is a tool that combines the functionality of the 'traceroute' and 'ping' programs in a single tool."
+            },
+            {
+                "name": "mylg",
+                "url": "https://github.com/mehrdadrad/mylg",
+                "description": "utility which combines the functions of the different network probes in one diagnostic tool."
+            },
+            {
+                "name": "netcat",
+                "url": "http://netcat.sourceforge.net/",
+                "description": "utility which reads and writes data across network connections, using the TCP/IP protocol."
+            },
+            {
+                "name": "socat",
+                "url": "http://www.dest-unreach.org/socat/",
+                "description": "utility which transfers data between two objects."
+            },
+            {
+                "name": "tcpdump",
+                "url": "https://www.tcpdump.org/",
+                "description": "is a powerful command-line packet analyzer."
+            },
+            {
+                "name": "tshark",
+                "url": "https://www.wireshark.org/docs/man-pages/tshark.html",
+                "description": "is a tool that allows us to dump and analyze network traffic (wireshark cli)."
+            },
+            {
+                "name": "Termshark",
+                "url": "https://termshark.io/",
+                "description": "is a simple terminal user-interface for tshark."
+            },
+            {
+                "name": "ngrep",
+                "url": "https://github.com/jpr5/ngrep",
+                "description": "is like GNU grep applied to the network layer."
+            },
+            {
+                "name": "netsniff-ng",
+                "url": "http://netsniff-ng.org/",
+                "description": "is a Swiss army knife for your daily Linux network plumbing if you will."
+            },
+            {
+                "name": "sockdump",
+                "url": "https://github.com/mechpen/sockdump",
+                "description": "dump unix domain socket traffic."
+            },
+            {
+                "name": "stenographer",
+                "url": "https://github.com/google/stenographer",
+                "description": "is a packet capture solution which aims to quickly spool all packets to disk."
+            },
+            {
+                "name": "tcpterm",
+                "url": "https://github.com/sachaos/tcpterm",
+                "description": "visualize packets in TUI."
+            },
+            {
+                "name": "bmon",
+                "url": "https://github.com/tgraf/bmon",
+                "description": "is a monitoring and debugging tool to capture networking related statistics and prepare them visually."
+            },
+            {
+                "name": "iptraf-ng",
+                "url": "http://iptraf.seul.org/2.6/manual.html#installation",
+                "description": "is a console-based network monitoring program for Linux that displays information about IP traffic."
+            },
+            {
+                "name": "vnstat",
+                "url": "https://github.com/vergoh/vnstat",
+                "description": "is a network traffic monitor for Linux and BSD."
+            },
+            {
+                "name": "iPerf3",
+                "url": "https://iperf.fr/",
+                "description": "is a tool for active measurements of the maximum achievable bandwidth on IP networks."
+            },
+            {
+                "name": "ethr",
+                "url": "https://github.com/Microsoft/Ethr",
+                "description": "is a Network Performance Measurement Tool for TCP, UDP & HTTP."
+            },
+            {
+                "name": "Etherate",
+                "url": "https://github.com/jwbensley/Etherate",
+                "description": "is a Linux CLI based Ethernet and MPLS traffic testing tool."
+            },
+            {
+                "name": "echoip",
+                "url": "https://github.com/mpolden/echoip",
+                "description": "is a IP address lookup service."
+            },
+            {
+                "name": "Nemesis",
+                "url": "https://github.com/troglobit/nemesis",
+                "description": "packet manipulation CLI tool; craft and inject packets of several protocols."
+            },
+            {
+                "name": "packetfu",
+                "url": "https://github.com/packetfu/packetfu",
+                "description": "a mid-level packet manipulation library for Ruby."
+            },
+            {
+                "name": "Scapy",
+                "url": "https://scapy.net/",
+                "description": "packet manipulation library; forge, send, decode, capture packets of a wide number of protocols."
+            },
+            {
+                "name": "impacket",
+                "url": "https://github.com/SecureAuthCorp/impacket",
+                "description": "is a collection of Python classes for working with network protocols."
+            },
+            {
+                "name": "ssh-audit",
+                "url": "https://github.com/arthepsy/ssh-audit",
+                "description": "is a tool for SSH server auditing."
+            },
+            {
+                "name": "aria2",
+                "url": "https://aria2.github.io/",
+                "description": "is a lightweight multi-protocol & multi-source command-line download utility."
+            },
+            {
+                "name": "iptables-tracer",
+                "url": "https://github.com/x-way/iptables-tracer",
+                "description": "observe the path of packets through the iptables chains."
+            },
+            {
+                "name": "inception",
+                "url": "https://github.com/proabiral/inception",
+                "description": "a highly configurable tool to check for whatever you like against any number of hosts."
+            },
+            {
+                "name": "mRemoteNG",
+                "url": "https://mremoteng.org/",
+                "description": "a fork of mRemote, multi-tabbed PuTTy on steroids!"
+            }
+        ],
+        "Network (DNS)": [
+            {
+                "name": "dnsdiag",
+                "url": "https://github.com/farrokhi/dnsdiag",
+                "description": "is a DNS diagnostics and performance measurement tools."
+            },
+            {
+                "name": "fierce",
+                "url": "https://github.com/mschwager/fierce",
+                "description": "is a DNS reconnaissance tool for locating non-contiguous IP space."
+            },
+            {
+                "name": "subfinder",
+                "url": "https://github.com/subfinder/subfinder",
+                "description": "is a subdomain discovery tool that discovers valid subdomains for websites."
+            },
+            {
+                "name": "sublist3r",
+                "url": "https://github.com/aboul3la/Sublist3r",
+                "description": "is a fast subdomains enumeration tool for penetration testers."
+            },
+            {
+                "name": "amass",
+                "url": "https://github.com/OWASP/Amass",
+                "description": "is tool that obtains subdomain names by scraping data sources, crawling web archives, and more."
+            },
+            {
+                "name": "namebench",
+                "url": "https://github.com/google/namebench",
+                "description": "provides personalized DNS server recommendations based on your browsing history."
+            },
+            {
+                "name": "massdns",
+                "url": "https://github.com/blechschmidt/massdns",
+                "description": "is a high-performance DNS stub resolver for bulk lookups and reconnaissance."
+            },
+            {
+                "name": "knock",
+                "url": "https://github.com/guelfoweb/knock",
+                "description": "is a tool to enumerate subdomains on a target domain through a wordlist."
+            },
+            {
+                "name": "dnsperf",
+                "url": "https://github.com/DNS-OARC/dnsperf",
+                "description": "DNS performance testing tools."
+            },
+            {
+                "name": "dnscrypt-proxy 2",
+                "url": "https://github.com/jedisct1/dnscrypt-proxy",
+                "description": "a flexible DNS proxy, with support for encrypted DNS protocols."
+            },
+            {
+                "name": "dnsdbq",
+                "url": "https://github.com/dnsdb/dnsdbq",
+                "description": "API client providing access to passive DNS database systems."
+            },
+            {
+                "name": "grimd",
+                "url": "https://github.com/looterz/grimd",
+                "description": "fast dns proxy, built to black-hole internet advertisements and malware servers."
+            },
+            {
+                "name": "dnstwist",
+                "url": "https://github.com/elceef/dnstwist",
+                "description": "detect typosquatters, phishing attacks, fraud, and brand impersonation."
+            }
+        ],
+        "Network (HTTP)": [
+            {
+                "name": "curl",
+                "url": "https://curl.haxx.se/",
+                "description": "is a command line tool and library for transferring data with URLs."
+            },
+            {
+                "name": "kurly",
+                "url": "https://gitlab.com/davidjpeacock/kurly",
+                "description": "is an alternative to the widely popular curl program, written in Golang."
+            },
+            {
+                "name": "HTTPie",
+                "url": "https://github.com/jakubroztocil/httpie",
+                "description": "is an user-friendly HTTP client."
+            },
+            {
+                "name": "wuzz",
+                "url": "https://github.com/asciimoo/wuzz",
+                "description": "is an interactive cli tool for HTTP inspection."
+            },
+            {
+                "name": "h2spec",
+                "url": "https://github.com/summerwind/h2spec",
+                "description": "is a conformance testing tool for HTTP/2 implementation."
+            },
+            {
+                "name": "h2t",
+                "url": "https://github.com/gildasio/h2t",
+                "description": "is a simple tool to help sysadmins to hardening their websites."
+            },
+            {
+                "name": "htrace.sh",
+                "url": "https://github.com/trimstray/htrace.sh",
+                "description": "is a simple Swiss Army knife for http/https troubleshooting and profiling."
+            },
+            {
+                "name": "httpstat",
+                "url": "https://github.com/reorx/httpstat",
+                "description": "is a tool that visualizes curl statistics in a way of beauty and clarity."
+            },
+            {
+                "name": "httplab",
+                "url": "https://github.com/gchaincl/httplab",
+                "description": "is an interactive web server."
+            },
+            {
+                "name": "Lynx",
+                "url": "https://lynx.browser.org/",
+                "description": "is a text browser for the World Wide Web."
+            },
+            {
+                "name": "Browsh",
+                "url": "https://github.com/browsh-org/browsh/",
+                "description": "is a fully interactive, real-time, and modern text-based browser."
+            },
+            {
+                "name": "HeadlessBrowsers",
+                "url": "https://github.com/dhamaniasad/HeadlessBrowsers",
+                "description": "a list of (almost) all headless web browsers in existence."
+            },
+            {
+                "name": "ab",
+                "url": "https://httpd.apache.org/docs/2.4/programs/ab.html",
+                "description": "is a single-threaded command line tool for measuring the performance of HTTP web servers."
+            },
+            {
+                "name": "siege",
+                "url": "https://www.joedog.org/siege-home/",
+                "description": "is an http load testing and benchmarking utility."
+            },
+            {
+                "name": "wrk",
+                "url": "https://github.com/wg/wrk",
+                "description": "is a modern HTTP benchmarking tool capable of generating significant load."
+            },
+            {
+                "name": "wrk2",
+                "url": "https://github.com/giltene/wrk2",
+                "description": "is a constant throughput, correct latency recording variant of wrk."
+            },
+            {
+                "name": "vegeta",
+                "url": "https://github.com/tsenart/vegeta",
+                "description": "is a constant throughput, correct latency recording variant of wrk."
+            },
+            {
+                "name": "bombardier",
+                "url": "https://github.com/codesenberg/bombardier",
+                "description": "is a fast cross-platform HTTP benchmarking tool written in Go."
+            },
+            {
+                "name": "gobench",
+                "url": "https://github.com/cmpxchg16/gobench",
+                "description": "http/https load testing and benchmarking tool."
+            },
+            {
+                "name": "hey",
+                "url": "https://github.com/rakyll/hey",
+                "description": "HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom."
+            },
+            {
+                "name": "boom",
+                "url": "https://github.com/tarekziade/boom",
+                "description": "is a script you can use to quickly smoke-test your web app deployment."
+            },
+            {
+                "name": "SlowHTTPTest",
+                "url": "https://github.com/shekyan/slowhttptest",
+                "description": "is a tool that simulates some Application Layer Denial of Service attacks by prolonging HTTP."
+            },
+            {
+                "name": "gobuster",
+                "url": "https://github.com/OJ/gobuster",
+                "description": "is a free and open source directory/file & DNS busting tool written in Go."
+            },
+            {
+                "name": "ssllabs-scan",
+                "url": "https://github.com/ssllabs/ssllabs-scan",
+                "description": "command-line reference-implementation client for SSL Labs APIs."
+            },
+            {
+                "name": "http-observatory",
+                "url": "https://github.com/mozilla/http-observatory",
+                "description": "Mozilla HTTP Observatory cli version."
+            },
+            {
+                "name": "Hurl",
+                "url": "https://hurl.dev",
+                "description": "is a command line tool to run and test HTTP requests with plain text."
+            }
+        ],
+        "SSL": [
+            {
+                "name": "openssl",
+                "url": "https://www.openssl.org/",
+                "description": "is a robust, commercial-grade, and full-featured toolkit for the TLS and SSL protocols."
+            },
+            {
+                "name": "gnutls-cli",
+                "url": "https://gnutls.org/manual/html_node/gnutls_002dcli-Invocation.html",
+                "description": "client program to set up a TLS connection to some other computer."
+            },
+            {
+                "name": "sslyze",
+                "url": "https://github.com/nabla-c0d3/sslyze",
+                "description": "fast and powerful SSL/TLS server scanning library."
+            },
+            {
+                "name": "sslscan",
+                "url": "https://github.com/rbsec/sslscan",
+                "description": "tests SSL/TLS enabled services to discover supported cipher suites."
+            },
+            {
+                "name": "testssl.sh",
+                "url": "https://github.com/drwetter/testssl.sh",
+                "description": "testing TLS/SSL encryption anywhere on any port."
+            },
+            {
+                "name": "cipherscan",
+                "url": "https://github.com/mozilla/cipherscan",
+                "description": "a very simple way to find out which SSL ciphersuites are supported by a target."
+            },
+            {
+                "name": "spiped",
+                "url": "http://www.tarsnap.com/spiped.html",
+                "description": "is a utility for creating symmetrically encrypted and authenticated pipes between socket addresses."
+            },
+            {
+                "name": "Certbot",
+                "url": "https://github.com/certbot/certbot",
+                "description": "is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server."
+            },
+            {
+                "name": "mkcert",
+                "url": "https://github.com/FiloSottile/mkcert",
+                "description": "simple zero-config tool to make locally trusted development certificates with any names you'd like."
+            },
+            {
+                "name": "certstrap",
+                "url": "https://github.com/square/certstrap",
+                "description": "tools to bootstrap CAs, certificate requests, and signed certificates."
+            },
+            {
+                "name": "Sublert",
+                "url": "https://github.com/yassineaboukir/sublert",
+                "description": "is a security and reconnaissance tool to automatically monitor new subdomains."
+            },
+            {
+                "name": "mkchain",
+                "url": "https://github.com/trimstray/mkchain",
+                "description": "open source tool to help you build a valid SSL certificate chain."
+            },
+            {
+                "name": "ssl-cert-check",
+                "url": "https://github.com/Matty9191/ssl-cert-check",
+                "description": "SSL Certification Expiration Checker."
+            }
+        ],
+        "Security": [
+            {
+                "name": "SELinux",
+                "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/deployment_guide/ch-selinux",
+                "description": "provides a flexible Mandatory Access Control (MAC) system built into the Linux kernel."
+            },
+            {
+                "name": "AppArmor",
+                "url": "https://wiki.ubuntu.com/AppArmor",
+                "description": "proactively protects the operating system and applications from external or internal threats."
+            },
+            {
+                "name": "grapheneX",
+                "url": "https://github.com/grapheneX/grapheneX",
+                "description": "Automated System Hardening Framework."
+            },
+            {
+                "name": "DevSec Hardening Framework",
+                "url": "https://github.com/dev-sec/",
+                "description": "Security + DevOps: Automatic Server Hardening."
+            }
+        ],
+        "Auditing Tools": [
+            {
+                "name": "ossec",
+                "url": "https://www.ossec.net/",
+                "description": "actively monitoring all aspects of system activity with file integrity monitoring."
+            },
+            {
+                "name": "auditd",
+                "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/chap-system_auditing",
+                "description": "provides a way to track security-relevant information on your system."
+            },
+            {
+                "name": "Tiger",
+                "url": "https://www.nongnu.org/tiger/",
+                "description": "is a security tool that can be use both as a security audit and intrusion detection system."
+            },
+            {
+                "name": "Lynis",
+                "url": "https://cisofy.com/lynis/",
+                "description": "battle-tested security tool for systems running Linux, macOS, or Unix-based operating system."
+            },
+            {
+                "name": "LinEnum",
+                "url": "https://github.com/rebootuser/LinEnum",
+                "description": "scripted Local Linux Enumeration & Privilege Escalation Checks."
+            },
+            {
+                "name": "Rkhunter",
+                "url": "https://github.com/installation/rkhunter",
+                "description": "scanner tool for Linux systems that scans backdoors, rootkits and local exploits on your systems."
+            },
+            {
+                "name": "PE-sieve",
+                "url": "https://github.com/hasherezade/pe-sieve",
+                "description": "is a light-weight tool that helps to detect malware running on the system."
+            },
+            {
+                "name": "PEASS",
+                "url": "https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite",
+                "description": "privilege escalation tools for Windows and Linux/Unix and MacOS."
+            }
+        ],
+        "System Diagnostics/Debuggers": [
+            {
+                "name": "strace",
+                "url": "https://github.com/strace/strace",
+                "description": "diagnostic, debugging and instructional userspace utility for Linux."
+            },
+            {
+                "name": "DTrace",
+                "url": "http://dtrace.org/blogs/about/",
+                "description": "is a performance analysis and troubleshooting tool."
+            },
+            {
+                "name": "ltrace",
+                "url": "https://en.wikipedia.org/wiki/Ltrace",
+                "description": "is a library call tracer, used to trace calls made by programs to library functions."
+            },
+            {
+                "name": "ptrace-burrito",
+                "url": "https://github.com/brainsmoke/ptrace-burrito",
+                "description": "is a friendly wrapper around ptrace."
+            },
+            {
+                "name": "perf-tools",
+                "url": "https://github.com/brendangregg/perf-tools",
+                "description": "performance analysis tools based on Linux perf_events (aka perf) and ftrace."
+            },
+            {
+                "name": "bpftrace",
+                "url": "https://github.com/iovisor/bpftrace",
+                "description": "high-level tracing language for Linux eBPF."
+            },
+            {
+                "name": "sysdig",
+                "url": "https://github.com/draios/sysdig",
+                "description": "system exploration and troubleshooting tool with first class support for containers."
+            },
+            {
+                "name": "Valgrind",
+                "url": "http://www.valgrind.org/",
+                "description": "is an instrumentation framework for building dynamic analysis tools."
+            },
+            {
+                "name": "gperftools",
+                "url": "https://github.com/gperftools/gperftools",
+                "description": "high-performance multi-threaded malloc() implementation, plus some performance analysis tools."
+            },
+            {
+                "name": "glances",
+                "url": "https://nicolargo.github.io/glances/",
+                "description": "cross-platform system monitoring tool written in Python."
+            },
+            {
+                "name": "htop",
+                "url": "https://github.com/hishamhm/htop",
+                "description": "interactive text-mode process viewer for Unix systems. It aims to be a better 'top'."
+            },
+            {
+                "name": "bashtop",
+                "url": "https://github.com/aristocratos/bashtop",
+                "description": "Linux resource monitor written in pure Bash."
+            },
+            {
+                "name": "nmon",
+                "url": "http://nmon.sourceforge.net/pmwiki.php",
+                "description": "a single executable for performance monitoring and data analysis."
+            },
+            {
+                "name": "atop",
+                "url": "https://www.atoptool.nl/",
+                "description": "ASCII performance monitor. Includes statistics for CPU, memory, disk, swap, network, and processes."
+            },
+            {
+                "name": "lsof",
+                "url": "https://en.wikipedia.org/wiki/Lsof",
+                "description": "displays in its output information about files that are opened by processes."
+            },
+            {
+                "name": "FlameGraph",
+                "url": "http://www.brendangregg.com/flamegraphs.html",
+                "description": "stack trace visualizer."
+            },
+            {
+                "name": "lsofgraph",
+                "url": "https://github.com/zevv/lsofgraph",
+                "description": "convert Unix lsof output to a graph showing FIFO and UNIX interprocess communication."
+            },
+            {
+                "name": "rr",
+                "url": "https://github.com/mozilla/rr",
+                "description": "is a lightweight tool for recording, replaying and debugging execution of applications."
+            },
+            {
+                "name": "Performance Co-Pilot",
+                "url": "https://pcp.io/index.html",
+                "description": "a system performance analysis toolkit."
+            },
+            {
+                "name": "hexyl",
+                "url": "https://github.com/sharkdp/hexyl",
+                "description": "a command-line hex viewer."
+            },
+            {
+                "name": "Austin",
+                "url": "https://github.com/p403n1x87/austin",
+                "description": "Python frame stack sampler for CPython."
+            }
+        ],
+        "Log Analyzers": [
+            {
+                "name": "angle-grinder",
+                "url": "https://github.com/rcoh/angle-grinder",
+                "description": "slice and dice log files on the command line."
+            },
+            {
+                "name": "lnav",
+                "url": "https://lnav.org",
+                "description": "log file navigator with search and automatic refresh."
+            },
+            {
+                "name": "GoAccess",
+                "url": "https://goaccess.io/",
+                "description": "real-time web log analyzer and interactive viewer that runs in a terminal."
+            },
+            {
+                "name": "ngxtop",
+                "url": "https://github.com/lebinh/ngxtop",
+                "description": "real-time metrics for nginx server."
+            }
+        ],
+        "Databases": [
+            {
+                "name": "usql",
+                "url": "https://github.com/xo/usql",
+                "description": "universal command-line interface for SQL databases."
+            },
+            {
+                "name": "pgcli",
+                "url": "https://github.com/dbcli/pgcli",
+                "description": "postgres CLI with autocompletion and syntax highlighting."
+            },
+            {
+                "name": "mycli",
+                "url": "https://github.com/dbcli/mycli",
+                "description": "terminal client for MySQL with autocompletion and syntax highlighting."
+            },
+            {
+                "name": "litecli",
+                "url": "https://github.com/dbcli/litecli",
+                "description": "SQLite CLI with autocompletion and syntax highlighting."
+            },
+            {
+                "name": "mssql-cli",
+                "url": "https://github.com/dbcli/mssql-cli",
+                "description": "SQL Server CLI with autocompletion and syntax highlighting."
+            },
+            {
+                "name": "OSQuery",
+                "url": "https://github.com/osquery/osquery",
+                "description": "is a SQL powered operating system instrumentation, monitoring, and analytics framework."
+            },
+            {
+                "name": "pgsync",
+                "url": "https://github.com/ankane/pgsync",
+                "description": "sync data from one Postgres database to another."
+            },
+            {
+                "name": "iredis",
+                "url": "https://github.com/laixintao/iredis",
+                "description": "a terminal client for redis with autocompletion and syntax highlighting."
+            },
+            {
+                "name": "SchemaCrawler",
+                "url": "https://www.schemacrawler.com/diagramming.html",
+                "description": "generates an E-R diagram of your database."
+            }
+        ],
+        "TOR": [
+            {
+                "name": "Nipe",
+                "url": "https://github.com/GouveaHeitor/nipe",
+                "description": "script to make Tor Network your default gateway."
+            },
+            {
+                "name": "multitor",
+                "url": "https://github.com/trimstray/multitor",
+                "description": "a tool that lets you create multiple TOR instances with a load-balancing."
+            }
+        ],
+        "Messengers/IRC Clients": [
+            {
+                "name": "Irssi",
+                "url": "https://irssi.org",
+                "description": "is a free open source terminal based IRC client."
+            },
+            {
+                "name": "WeeChat",
+                "url": "https://weechat.org/",
+                "description": "is an extremely extensible and lightweight IRC client."
+            }
+        ],
+        "Productivity": [
+            {
+                "name": "taskwarrior",
+                "url": "https://taskwarrior.org",
+                "description": "task management system, todo list."
+            }
+        ],
+        "Other": [
+            {
+                "name": "sysadmin-util",
+                "url": "https://github.com/skx/sysadmin-util",
+                "description": "tools for Linux/Unix sysadmins."
+            },
+            {
+                "name": "incron",
+                "url": "http://inotify.aiken.cz/",
+                "description": "is an inode-based filesystem notification technology."
+            },
+            {
+                "name": "lsyncd",
+                "url": "https://github.com/axkibe/lsyncd",
+                "description": "synchronizes local directories with remote targets (Live Syncing Daemon)."
+            },
+            {
+                "name": "GRV",
+                "url": "https://github.com/rgburke/grv",
+                "description": "is a terminal based interface for viewing Git repositories."
+            },
+            {
+                "name": "Tig",
+                "url": "https://jonas.github.io/tig/",
+                "description": "text-mode interface for Git."
+            },
+            {
+                "name": "tldr",
+                "url": "https://github.com/tldr-pages/tldr",
+                "description": "simplified and community-driven man pages."
+            },
+            {
+                "name": "archiver",
+                "url": "https://github.com/mholt/archiver",
+                "description": "easily create and extract .zip, .tar, .tar.gz, .tar.bz2, .tar.xz, .tar.lz4, .tar.sz, and .rar."
+            },
+            {
+                "name": "commander.js",
+                "url": "https://github.com/tj/commander.js",
+                "description": "minimal CLI creator in JavaScript."
+            },
+            {
+                "name": "gron",
+                "url": "https://github.com/tomnomnom/gron",
+                "description": "make JSON greppable!"
+            },
+            {
+                "name": "bed",
+                "url": "https://github.com/itchyny/bed",
+                "description": "binary editor written in Go."
+            }
+        ]
+    },
+    "GUI Tools": {
+        "Terminal emulators": [
+            {
+                "name": "Guake",
+                "url": "https://github.com/Guake/guake",
+                "description": "is a dropdown terminal made for the GNOME desktop environment."
+            },
+            {
+                "name": "Terminator",
+                "url": "https://gnometerminator.blogspot.com/p/introduction.html",
+                "description": "is based on GNOME Terminal, useful features for sysadmins and other users."
+            },
+            {
+                "name": "Kitty",
+                "url": "https://sw.kovidgoyal.net/kitty/",
+                "description": "is a GPU based terminal emulator that supports smooth scrolling and images."
+            },
+            {
+                "name": "Alacritty",
+                "url": "https://github.com/alacritty/alacritty",
+                "description": "is a fast, cross-platform, OpenGL terminal emulator."
+            }
+        ],
+        "Network": [
+            {
+                "name": "Wireshark",
+                "url": "https://www.wireshark.org/",
+                "description": "is the world’s foremost and widely-used network protocol analyzer."
+            },
+            {
+                "name": "Ettercap",
+                "url": "https://www.ettercap-project.org/",
+                "description": "is a comprehensive network monitor tool."
+            },
+            {
+                "name": "EtherApe",
+                "url": "https://etherape.sourceforge.io/",
+                "description": "is a graphical network monitoring solution."
+            },
+            {
+                "name": "Packet Sender",
+                "url": "https://packetsender.com/",
+                "description": "is a networking utility for packet generation and built-in UDP/TCP/SSL client and servers."
+            },
+            {
+                "name": "Ostinato",
+                "url": "https://ostinato.org/",
+                "description": "is a packet crafter and traffic generator."
+            },
+            {
+                "name": "JMeter™",
+                "url": "https://jmeter.apache.org/",
+                "description": "open source software to load test functional behavior and measure performance."
+            },
+            {
+                "name": "locust",
+                "url": "https://github.com/locustio/locust",
+                "description": "scalable user load testing tool written in Python."
+            }
+        ],
+        "Browsers": [
+            {
+                "name": "TOR Browser",
+                "url": "https://www.torproject.org/",
+                "description": "protect your privacy and defend yourself against network surveillance and traffic analysis."
+            }
+        ],
+        "Password Managers": [
+            {
+                "name": "KeePassXC",
+                "url": "https://keepassxc.org/",
+                "description": "store your passwords safely and auto-type them into your everyday websites and apps."
+            },
+            {
+                "name": "Bitwarden",
+                "url": "https://bitwarden.com/",
+                "description": "open source password manager with built-in sync."
+            },
+            {
+                "name": "Vaultwarden",
+                "url": "https://github.com/dani-garcia/vaultwarden/",
+                "description": "unofficial Bitwarden compatible server written in Rust."
+            }
+        ],
+        "Messengers/IRC Clients": [
+            {
+                "name": "HexChat",
+                "url": "https://hexchat.github.io/index.html",
+                "description": "is an IRC client based on XChat."
+            },
+            {
+                "name": "Pidgin",
+                "url": "https://pidgin.im/",
+                "description": "is an easy to use and free chat client used by millions."
+            }
+        ],
+        "Messengers (end-to-end encryption)": [
+            {
+                "name": "Signal",
+                "url": "https://www.signal.org/",
+                "description": "is an encrypted communications app."
+            },
+            {
+                "name": "Wire",
+                "url": "https://wire.com/en/",
+                "description": "secure messaging, file sharing, voice calls and video conferences."
+            },
+            {
+                "name": "TorChat",
+                "url": "https://github.com/prof7bit/TorChat",
+                "description": "decentralized anonymous instant messenger on top of Tor Hidden Services."
+            },
+            {
+                "name": "Matrix",
+                "url": "https://matrix.org/",
+                "description": "an open network for secure, decentralized, real-time communication."
+            }
+        ],
+        "Text editors": [
+            {
+                "name": "Sublime Text",
+                "url": "https://www.sublimetext.com/3",
+                "description": "is a lightweight, cross-platform code editor known for its speed, ease of use."
+            },
+            {
+                "name": "Visual Studio Code",
+                "url": "https://code.visualstudio.com/",
+                "description": "an open-source and free source code editor developed by Microsoft."
+            },
+            {
+                "name": "Atom",
+                "url": "https://atom.io/",
+                "description": "a hackable text editor for the 21st Century."
+            }
+        ]
+    },
+    "Web Tools": {
+        "Browsers": [
+            {
+                "name": "SSL/TLS Capabilities of Your Browser",
+                "url": "https://www.ssllabs.com/ssltest/viewMyClient.html",
+                "description": "test your browser's SSL implementation."
+            },
+            {
+                "name": "Can I use",
+                "url": "https://caniuse.com/",
+                "description": "provides up-to-date browser support tables for support of front-end web technologies."
+            },
+            {
+                "name": "Panopticlick 3.0",
+                "url": "https://panopticlick.eff.org/",
+                "description": "is your browser safe against tracking?"
+            },
+            {
+                "name": "Privacy Analyzer",
+                "url": "https://privacy.net/analyzer/",
+                "description": "see what data is exposed from your browser."
+            },
+            {
+                "name": "Web Browser Security",
+                "url": "https://browserleaks.com/",
+                "description": "it's all about Web Browser fingerprinting."
+            },
+            {
+                "name": "How's My SSL?",
+                "url": "https://www.howsmyssl.com/",
+                "description": "help a web server developer learn what real world TLS clients were capable of."
+            },
+            {
+                "name": "sslClientInfo",
+                "url": "https://suche.org/sslClientInfo",
+                "description": "client test (incl TLSv1.3 information)."
+            }
+        ],
+        "SSL/Security": [
+            {
+                "name": "SSLLabs Server Test",
+                "url": "https://www.ssllabs.com/ssltest/",
+                "description": "performs a deep analysis of the configuration of any SSL web server."
+            },
+            {
+                "name": "SSLLabs Server Test (DEV)",
+                "url": "https://dev.ssllabs.com/ssltest/",
+                "description": "performs a deep analysis of the configuration of any SSL web server."
+            },
+            {
+                "name": "ImmuniWeb® SSLScan",
+                "url": "https://www.immuniweb.com/ssl/",
+                "description": "test SSL/TLS (PCI DSS, HIPAA and NIST)."
+            },
+            {
+                "name": "SSL Check",
+                "url": "https://www.jitbit.com/sslcheck/",
+                "description": "scan your website for non-secure content."
+            },
+            {
+                "name": "SSL Scanner",
+                "url": "http://www.ssltools.com",
+                "description": "analyze website security."
+            },
+            {
+                "name": "CryptCheck",
+                "url": "https://cryptcheck.fr/",
+                "description": "test your TLS server configuration (e.g. ciphers)."
+            },
+            {
+                "name": "urlscan.io",
+                "url": "https://urlscan.io/",
+                "description": "service to scan and analyse websites."
+            },
+            {
+                "name": "Report URI",
+                "url": "https://report-uri.com/home/tools",
+                "description": "monitoring security policies like CSP and HPKP."
+            },
+            {
+                "name": "CSP Evaluator",
+                "url": "https://csp-evaluator.withgoogle.com/",
+                "description": "allows developers and security experts to check if a Content Security Policy."
+            },
+            {
+                "name": "Useless CSP",
+                "url": "https://uselesscsp.com/",
+                "description": "public list about CSP in some big players (might make them care a bit more)."
+            },
+            {
+                "name": "Why No HTTPS?",
+                "url": "https://whynohttps.com/",
+                "description": "top 100 websites by Alexa rank not automatically redirecting insecure requests."
+            },
+            {
+                "name": "TLS Cipher Suite Search",
+                "url": "https://ciphersuite.info/",
+                "description": "cipher suite search engine."
+            },
+            {
+                "name": "cipherli.st",
+                "url": "https://github.com/RaymiiOrg/cipherli.st",
+                "description": "strong ciphers for Apache, Nginx, Lighttpd, and more."
+            },
+            {
+                "name": "dhtool",
+                "url": "https://2ton.com.au/dhtool/",
+                "description": "public Diffie-Hellman parameter service/tool."
+            },
+            {
+                "name": "badssl.com",
+                "url": "https://badssl.com/",
+                "description": "memorable site for testing clients against bad SSL configs."
+            },
+            {
+                "name": "tlsfun.de",
+                "url": "https://tlsfun.de/",
+                "description": "registered for various tests regarding the TLS/SSL protocol."
+            },
+            {
+                "name": "CAA Record Helper",
+                "url": "https://sslmate.com/caa/",
+                "description": "generate a CAA policy."
+            },
+            {
+                "name": "Common CA Database",
+                "url": "https://ccadb.org/resources",
+                "description": "repository of information about CAs, and their root and intermediate certificates."
+            },
+            {
+                "name": "CERTSTREAM",
+                "url": "https://certstream.calidog.io/",
+                "description": "real-time certificate transparency log update stream."
+            },
+            {
+                "name": "crt.sh",
+                "url": "https://crt.sh/",
+                "description": "discovers certificates by continually monitoring all of the publicly known CT."
+            },
+            {
+                "name": "Hardenize",
+                "url": "https://www.hardenize.com/",
+                "description": "deploy the security standards."
+            },
+            {
+                "name": "Cipher suite compatibility",
+                "url": "https://cryptcheck.fr/suite/",
+                "description": "test TLS cipher suite compatibility."
+            },
+            {
+                "name": "urlvoid",
+                "url": "https://www.urlvoid.com/",
+                "description": "this service helps you detect potentially malicious websites."
+            },
+            {
+                "name": "security.txt",
+                "url": "https://securitytxt.org/",
+                "description": "a proposed standard (generator) which allows websites to define security policies."
+            },
+            {
+                "name": "ssl-config-generator",
+                "url": "https://github.com/mozilla/ssl-config-generator",
+                "description": "help you follow the Mozilla Server Side TLS configuration guidelines."
+            },
+            {
+                "name": "TLScan",
+                "url": "https://github.com/mjol/TLScan",
+                "description": "pure python, SSL/TLS protocol and cipher scanner/enumerator."
+            }
+        ],
+        "HTTP Headers & Web Linters": [
+            {
+                "name": "Security Headers",
+                "url": "https://securityheaders.com/",
+                "description": "analyse the HTTP response headers (with rating system to the results)."
+            },
+            {
+                "name": "Observatory by Mozilla",
+                "url": "https://observatory.mozilla.org/",
+                "description": "set of tools to analyze your website."
+            },
+            {
+                "name": "webhint",
+                "url": "https://webhint.io/",
+                "description": "is a linting tool that will help you with your site's accessibility, speed, security, and more."
+            }
+        ],
+        "DNS": [
+            {
+                "name": "ViewDNS",
+                "url": "http://viewdns.info/",
+                "description": "one source for free DNS related tools and information."
+            },
+            {
+                "name": "DNSLookup",
+                "url": "https://dnslookup.org/",
+                "description": "is an advanced DNS lookup tool."
+            },
+            {
+                "name": "DNSlytics",
+                "url": "https://dnslytics.com/",
+                "description": "online DNS investigation tool."
+            },
+            {
+                "name": "DNS Spy",
+                "url": "https://dnsspy.io/",
+                "description": "monitor, validate and verify your DNS configurations."
+            },
+            {
+                "name": "Zonemaster",
+                "url": "https://zonemaster.iis.se/en/",
+                "description": "helps you to control how your DNS works."
+            },
+            {
+                "name": "Leaf DNS",
+                "url": "http://leafdns.com/",
+                "description": "comprehensive DNS tester."
+            },
+            {
+                "name": "Find subdomains online",
+                "url": "https://findsubdomains.com/",
+                "description": "find subdomains for security assessment penetration test."
+            },
+            {
+                "name": "DNSdumpster",
+                "url": "https://dnsdumpster.com/",
+                "description": "dns recon & research, find & lookup dns records."
+            },
+            {
+                "name": "DNS Table online",
+                "url": "https://dnstable.com/",
+                "description": "search for DNS records by domain, IP, CIDR, ISP."
+            },
+            {
+                "name": "intoDNS",
+                "url": "https://intodns.com/",
+                "description": "DNS and mail server health checker."
+            },
+            {
+                "name": "DNS Bajaj",
+                "url": "http://www.zonecut.net/dns/",
+                "description": "check the delegation of your domain."
+            },
+            {
+                "name": "BuddyDNS Delegation LAB",
+                "url": "https://www.buddyns.com/delegation-lab/",
+                "description": "check, trace and visualize delegation of your domain."
+            },
+            {
+                "name": "dnssec-debugger",
+                "url": "https://dnssec-debugger.verisignlabs.com/",
+                "description": "DS or DNSKEY records validator."
+            },
+            {
+                "name": "PTRarchive.com",
+                "url": "http://ptrarchive.com/",
+                "description": "this site is responsible for the safekeeping of historical reverse DNS records."
+            },
+            {
+                "name": "xip.io",
+                "url": "http://xip.io/",
+                "description": "wildcard DNS for everyone."
+            },
+            {
+                "name": "nip.io",
+                "url": "https://nip.io/",
+                "description": "dead simple wildcard DNS for any IP Address."
+            },
+            {
+                "name": "dnslookup (ceipam)",
+                "url": "https://ceipam.eu/en/dnslookup.php",
+                "description": "one of the best DNS propagation checker (and not only)."
+            },
+            {
+                "name": "What's My DNS",
+                "url": "https://whatsmydns.com",
+                "description": "DNS propagation checking tool."
+            },
+            {
+                "name": "DNSGrep",
+                "url": "https://blog.erbbysam.com/index.php/2019/02/09/dnsgrep/",
+                "description": "quickly searching large DNS datasets."
+            }
+        ],
+        "Mail": [
+            {
+                "name": "smtp-tls-checker",
+                "url": "https://luxsci.com/smtp-tls-checker",
+                "description": "check an email domain for SMTP TLS support."
+            },
+            {
+                "name": "MX Toolbox",
+                "url": "https://mxtoolbox.com/SuperTool.aspx",
+                "description": "all of your MX record, DNS, blacklist and SMTP diagnostics in one integrated tool."
+            },
+            {
+                "name": "Secure Email",
+                "url": "https://www.checktls.com/index.html",
+                "description": "complete email test tools for email technicians."
+            },
+            {
+                "name": "blacklistalert",
+                "url": "http://www.blacklistalert.org/",
+                "description": "checks to see if your domain is on a Real Time Spam Blacklist."
+            },
+            {
+                "name": "MultiRBL",
+                "url": "http://multirbl.valli.org/",
+                "description": "complete IP check for sending Mailservers."
+            },
+            {
+                "name": "DKIM SPF & Spam Assassin Validator",
+                "url": "https://dkimvalidator.com/",
+                "description": "checks mail authentication and scores messages with Spam Assassin."
+            }
+        ],
+        "Encoders/Decoders and Regex testing": [
+            {
+                "name": "URL Encode/Decode",
+                "url": "https://www.url-encode-decode.com/",
+                "description": "tool from above to either encode or decode a string of text."
+            },
+            {
+                "name": "Uncoder",
+                "url": "https://uncoder.io/",
+                "description": "the online translator for search queries on log data."
+            },
+            {
+                "name": "Regex101",
+                "url": "https://regex101.com/",
+                "description": "online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript."
+            },
+            {
+                "name": "RegExr",
+                "url": "https://regexr.com/",
+                "description": "online tool to learn, build, & test Regular Expressions (RegEx / RegExp)."
+            },
+            {
+                "name": "RegEx Testing",
+                "url": "https://www.regextester.com/",
+                "description": "online regex testing tool."
+            },
+            {
+                "name": "RegEx Pal",
+                "url": "https://www.regexpal.com/",
+                "description": "online regex testing tool + other tools."
+            },
+            {
+                "name": "The Cyber Swiss Army Knife",
+                "url": "https://gchq.github.io/CyberChef/",
+                "description": "a web app for encryption, encoding, compression and data analysis."
+            }
+        ]
+    },
+    "Systems/Services": {
+        "Operating Systems": [
+            {
+                "name": "Slackware",
+                "url": "http://www.slackware.com/",
+                "description": "the most 'Unix-like' Linux distribution."
+            },
+            {
+                "name": "OpenBSD",
+                "url": "https://www.openbsd.org/",
+                "description": "multi-platform 4.4BSD-based UNIX-like operating system."
+            },
+            {
+                "name": "HardenedBSD",
+                "url": "https://hardenedbsd.org/",
+                "description": "HardenedBSD aims to implement innovative exploit mitigation and security solutions."
+            },
+            {
+                "name": "Kali Linux",
+                "url": "https://www.kali.org/",
+                "description": "Linux distribution used for Penetration Testing, Ethical Hacking and network security assessments."
+            },
+            {
+                "name": "Parrot Security OS",
+                "url": "https://www.parrotsec.org/",
+                "description": "cyber security GNU/Linux environment."
+            },
+            {
+                "name": "Backbox Linux",
+                "url": "https://www.backbox.org/",
+                "description": "penetration test and security assessment oriented Ubuntu-based Linux distribution."
+            },
+            {
+                "name": "BlackArch",
+                "url": "https://blackarch.org/",
+                "description": "is an Arch Linux-based penetration testing distribution for penetration testers."
+            },
+            {
+                "name": "Pentoo",
+                "url": "https://www.pentoo.ch/",
+                "description": "is a security-focused livecd based on Gentoo."
+            },
+            {
+                "name": "Security Onion",
+                "url": "https://securityonion.net/",
+                "description": "Linux distro for intrusion detection, enterprise security monitoring, and log management."
+            },
+            {
+                "name": "Tails",
+                "url": "https://tails.boum.org/",
+                "description": "is a live system that aims to preserve your privacy and anonymity."
+            },
+            {
+                "name": "vedetta",
+                "url": "https://github.com/vedetta-com/vedetta",
+                "description": "OpenBSD router boilerplate."
+            },
+            {
+                "name": "Qubes OS",
+                "url": "https://www.qubes-os.org",
+                "description": "is a security-oriented OS that uses Xen-based virtualization."
+            }
+        ],
+        "HTTP(s) Services": [
+            {
+                "name": "Varnish Cache",
+                "url": "https://varnish-cache.org/",
+                "description": "HTTP accelerator designed for content-heavy dynamic web sites."
+            },
+            {
+                "name": "Nginx",
+                "url": "https://nginx.org/",
+                "description": "open source web and reverse proxy server that is similar to Apache, but very light weight."
+            },
+            {
+                "name": "OpenResty",
+                "url": "https://openresty.org/en/",
+                "description": "is a dynamic web platform based on NGINX and LuaJIT."
+            },
+            {
+                "name": "Tengine",
+                "url": "https://github.com/alibaba/tengine",
+                "description": "a distribution of Nginx with some advanced features."
+            },
+            {
+                "name": "Caddy Server",
+                "url": "https://caddyserver.com/",
+                "description": "is an open source, HTTP/2-enabled web server with HTTPS by default."
+            },
+            {
+                "name": "HAProxy",
+                "url": "https://www.haproxy.org/",
+                "description": "the reliable, high performance TCP/HTTP load balancer."
+            }
+        ],
+        "DNS Services": [
+            {
+                "name": "Unbound",
+                "url": "https://nlnetlabs.nl/projects/unbound/about/",
+                "description": "validating, recursive, and caching DNS resolver (with TLS)."
+            },
+            {
+                "name": "Knot Resolver",
+                "url": "https://www.knot-resolver.cz/",
+                "description": "caching full resolver implementation, including both a resolver library and a daemon."
+            },
+            {
+                "name": "PowerDNS",
+                "url": "https://www.powerdns.com/",
+                "description": "is an open source authoritative DNS server, written in C++ and licensed under the GPL."
+            }
+        ],
+        "Other Services": [
+            {
+                "name": "3proxy",
+                "url": "https://github.com/z3APA3A/3proxy",
+                "description": "tiny free proxy server."
+            }
+        ],
+        "Security/hardening": [
+            {
+                "name": "Emerald Onion",
+                "url": "https://twitter.com/EmeraldOnion",
+                "description": "is a 501(c)(3) nonprofit organization and transit internet service provider (ISP)."
+            },
+            {
+                "name": "pi-hole",
+                "url": "https://github.com/pi-hole/pi-hole",
+                "description": "the Pi-hole® is a DNS sinkhole that protects your devices from unwanted content."
+            },
+            {
+                "name": "maltrail",
+                "url": "https://github.com/stamparm/maltrail",
+                "description": "malicious traffic detection system."
+            },
+            {
+                "name": "security_monkey",
+                "url": "https://github.com/Netflix/security_monkey",
+                "description": "monitors AWS, GCP, OpenStack, and GitHub orgs for assets and their changes over time."
+            },
+            {
+                "name": "firecracker",
+                "url": "https://github.com/firecracker-microvm/firecracker",
+                "description": "secure and fast microVMs for serverless computing."
+            },
+            {
+                "name": "streisand",
+                "url": "https://github.com/StreisandEffect/streisand",
+                "description": "sets up a new server running your choice of WireGuard, OpenSSH, OpenVPN, and more."
+            }
+        ]
+    },
+    "Networks": {
+        "Tools": [
+            {
+                "name": "CapAnalysis",
+                "url": "https://www.capanalysis.net/ca/",
+                "description": "web visual tool to analyze large amounts of captured network traffic (PCAP analyzer)."
+            },
+            {
+                "name": "netbox",
+                "url": "https://github.com/digitalocean/netbox",
+                "description": "IP address management (IPAM) and data center infrastructure management (DCIM) tool."
+            }
+        ],
+        "Labs": [
+            {
+                "name": "NRE Labs",
+                "url": "https://labs.networkreliability.engineering/",
+                "description": "learn automation by doing it. Right now, right here, in your browser."
+            }
+        ],
+        "Other": [
+            {
+                "name": "LBNL's Network Research Group",
+                "url": "https://ee.lbl.gov/",
+                "description": "home page of the Network Research Group (NRG)."
+            }
+        ]
+    },
+    "Containers/Orchestration": {
+        "CLI Tools": [
+            {
+                "name": "gvisor",
+                "url": "https://github.com/google/gvisor",
+                "description": "container runtime sandbox."
+            },
+            {
+                "name": "ctop",
+                "url": "https://github.com/bcicen/ctop",
+                "description": "top-like interface for container metrics."
+            }
+        ],
+        "Web Tools": [
+            {
+                "name": "Moby",
+                "url": "https://github.com/moby/moby",
+                "description": "a collaborative project for the container ecosystem to assemble container-based system."
+            },
+            {
+                "name": "Traefik",
+                "url": "https://traefik.io/",
+                "description": "open source reverse proxy/load balancer provides easier integration with Docker and Let's encrypt."
+            },
+            {
+                "name": "kong",
+                "url": "https://github.com/Kong/kong",
+                "description": "The Cloud-Native API Gateway."
+            },
+            {
+                "name": "rancher",
+                "url": "https://github.com/rancher/rancher",
+                "description": "complete container management platform."
+            },
+            {
+                "name": "portainer",
+                "url": "https://github.com/portainer/portainer",
+                "description": "making Docker management easy."
+            },
+            {
+                "name": "nginx-proxy",
+                "url": "https://github.com/jwilder/nginx-proxy",
+                "description": "automated nginx proxy for Docker containers using docker-gen."
+            },
+            {
+                "name": "bunkerized-nginx",
+                "url": "https://github.com/bunkerity/bunkerized-nginx",
+                "description": "nginx docker image 'secure by default'."
+            }
+        ],
+        "Security": [
+            {
+                "name": "docker-bench-security",
+                "url": "https://github.com/docker/docker-bench-security",
+                "description": "checks for dozens of common best-practices around deploying Docker."
+            },
+            {
+                "name": "trivy",
+                "url": "https://github.com/aquasecurity/trivy",
+                "description": "vulnerability scanner for containers, suitable for CI."
+            },
+            {
+                "name": "Harbor",
+                "url": "https://goharbor.io/",
+                "description": "cloud native registry project that stores, signs, and scans content."
+            },
+            {
+                "name": "Houdini",
+                "url": "https://houdini.secsi.io/",
+                "description": "hundreds of offensive and useful docker images for network intrusion."
+            }
+        ],
+        "Manuals/Tutorials/Best Practices": [
+            {
+                "name": "docker-cheat-sheet",
+                "url": "https://github.com/wsargent/docker-cheat-sheet",
+                "description": "a quick reference cheat sheet on Docker."
+            },
+            {
+                "name": "awesome-docker",
+                "url": "https://github.com/veggiemonk/awesome-docker",
+                "description": "a curated list of Docker resources and projects."
+            },
+            {
+                "name": "docker_practice",
+                "url": "https://github.com/yeasy/docker_practice",
+                "description": "learn and understand Docker technologies, with real DevOps practice!"
+            },
+            {
+                "name": "labs",
+                "url": "https://github.com/docker/labs",
+                "description": "is a collection of tutorials for learning how to use Docker with various tools."
+            },
+            {
+                "name": "dockerfiles",
+                "url": "https://github.com/jessfraz/dockerfiles",
+                "description": "various Dockerfiles I use on the desktop and on servers."
+            },
+            {
+                "name": "kubernetes-the-hard-way",
+                "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way",
+                "description": "bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts."
+            },
+            {
+                "name": "kubernetes-the-easy-way",
+                "url": "https://github.com/jamesward/kubernetes-the-easy-way",
+                "description": "bootstrap Kubernetes the easy way on Google Cloud Platform. No scripts."
+            },
+            {
+                "name": "cheatsheet-kubernetes-A4",
+                "url": "https://github.com/dennyzhang/cheatsheet-kubernetes-A4",
+                "description": "Kubernetes CheatSheets in A4."
+            },
+            {
+                "name": "k8s-security",
+                "url": "https://github.com/kabachook/k8s-security",
+                "description": "kubernetes security notes and best practices."
+            },
+            {
+                "name": "kubernetes-production-best-practices",
+                "url": "https://learnk8s.io/production-best-practices/",
+                "description": "checklists with best-practices for production-ready Kubernetes."
+            },
+            {
+                "name": "kubernetes-production-best-practices",
+                "url": "https://github.com/freach/kubernetes-security-best-practice",
+                "description": "kubernetes security - best practice guide."
+            },
+            {
+                "name": "kubernetes-failure-stories",
+                "url": "https://github.com/hjacobs/kubernetes-failure-stories",
+                "description": "is a compilation of public failure/horror stories related to Kubernetes."
+            }
+        ]
+    },
+    "Manuals/Howtos/Tutorials": {
+        "General": [
+            {
+                "name": "Awesome Sysadmin",
+                "url": "https://github.com/kahun/awesome-sysadmin",
+                "description": "a curated list of amazingly awesome open source sysadmin resources."
+            },
+            {
+                "name": "Awesome DevOps",
+                "url": "https://github.com/AcalephStorage/awesome-devops",
+                "description": "a curated list of resources for DevOps."
+            },
+            {
+                "name": "Awesome SRE",
+                "url": "https://github.com/dastergon/awesome-sre",
+                "description": "a curated list of Site Reliability and Production Engineering resources."
+            },
+            {
+                "name": "Awesome Scalability",
+                "url": "https://github.com/binhnguyennus/awesome-scalability",
+                "description": "a curated list of resources for building scalable web applications."
+            },
+            {
+                "name": "Awesome Selfhosted",
+                "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+                "description": "a list of Free Software network services and web applications which can be hosted locally."
+            },
+            {
+                "name": "Awesome Docker",
+                "url": "https://github.com/veggiemonk/awesome-docker",
+                "description": "a curated list of Docker resources and projects."
+            },
+            {
+                "name": "Awesome Kubernetes",
+                "url": "https://github.com/ramitsurana/awesome-kubernetes",
+                "description": "a curated list for awesome kubernetes sources."
+            },
+            {
+                "name": "Awesome Prometheus",
+                "url": "https://github.com/roaldnefs/awesome-prometheus",
+                "description": "a curated list of awesome Prometheus resources."
+            },
+            {
+                "name": "Awesome Monitoring",
+                "url": "https://github.com/crazy-canux/awesome-monitoring",
+                "description": "a curated list of monitoring tools."
+            },
+            {
+                "name": "Awesome Logging",
+                "url": "https://github.com/DeeDeeG/awesome-logging",
+                "description": "a curated list of logging tools."
+            },
+            {
+                "name": "Awesome Incident Response",
+                "url": "https://github.com/meirwah/awesome-incident-response",
+                "description": "a curated list of tools for incident response."
+            },
+            {
+                "name": "Awesome Threat Intelligence",
+                "url": "https://github.com/hslatman/awesome-threat-intelligence",
+                "description": "a curated list of threat intelligence resources."
+            },
+            {
+                "name": "Awesome Honeypots",
+                "url": "https://github.com/paralax/awesome-honeypots",
+                "description": "a curated list of honeypots resources."
+            },
+            {
+                "name": "Awesome Malware Analysis",
+                "url": "https://github.com/rshipp/awesome-malware-analysis",
+                "description": "a curated list of malware analysis tools and resources."
+            },
+            {
+                "name": "Awesome Forensics",
+                "url": "https://github.com/Cugu/awesome-forensics",
+                "description": "a curated list of forensics tools and resources."
+            },
+            {
+                "name": "Awesome YARA",
+                "url": "https://github.com/InQuest/awesome-yara",
+                "description": "a curated list of awesome YARA rules, tools, and resources."
+            },
+            {
+                "name": "Awesome Threat Detection",
+                "url": "https://github.com/0x4D31/awesome-threat-detection",
+                "description": "a curated list of threat detection resources."
+            },
+            {
+                "name": "Awesome Threat Hunting",
+                "url": "https://github.com/0x4D31/awesome-threat-hunting",
+                "description": "a curated list of threat hunting resources."
+            },
+            {
+                "name": "Awesome Threat Modeling",
+                "url": "https://github.com/hysnsec/awesome-threat-modeling",
+                "description": "a curated list of threat modeling resources."
+            },
+            {
+                "name": "Awesome Pentest",
+                "url": "https://github.com/enaqx/awesome-pentest",
+                "description": "a curated list of awesome penetration testing resources."
+            }
+        ]
+    },
+    "Hacking/Penetration Testing": {
+        "Tools": [
+            {
+                "name": "Metasploit",
+                "url": "https://www.metasploit.com/",
+                "description": "a penetration testing framework that makes discovering, exploiting, and sharing vulnerabilities quick and relatively painless."
+            },
+            {
+                "name": "Burp Suite",
+                "url": "https://portswigger.net/burp",
+                "description": "an integrated platform for performing security testing of web applications."
+            },
+            {
+                "name": "OWASP ZAP",
+                "url": "https://www.zaproxy.org/",
+                "description": "an open source web application security scanner."
+            },
+            {
+                "name": "Nessus",
+                "url": "https://www.tenable.com/products/nessus",
+                "description": "a proprietary vulnerability scanner developed by Tenable, Inc."
+            },
+            {
+                "name": "Nikto",
+                "url": "https://cirt.net/Nikto2",
+                "description": "an open source web server scanner which performs comprehensive tests against web servers for multiple items."
+            },
+            {
+                "name": "sqlmap",
+                "url": "http://sqlmap.org/",
+                "description": "an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws."
+            },
+            {
+                "name": "John the Ripper",
+                "url": "https://www.openwall.com/john/",
+                "description": "a fast password cracker, currently available for many flavors of Unix, Windows, DOS, BeOS, and OpenVMS."
+            },
+            {
+                "name": "Hydra",
+                "url": "https://github.com/vanhauser-thc/thc-hydra",
+                "description": "a parallelized login cracker which supports numerous protocols to attack."
+            },
+            {
+                "name": "Aircrack-ng",
+                "url": "https://www.aircrack-ng.org/",
+                "description": "a complete suite of tools to assess WiFi network security."
+            },
+            {
+                "name": "Wireshark",
+                "url": "https://www.wireshark.org/",
+                "description": "the world's foremost and widely-used network protocol analyzer."
+            }
+        ]
+    },
+    "Your daily knowledge and news": {
+        "Websites": [
+            {
+                "name": "Hacker News",
+                "url": "https://news.ycombinator.com/",
+                "description": "a social news website focusing on computer science and entrepreneurship."
+            },
+            {
+                "name": "Reddit - NetSec",
+                "url": "https://www.reddit.com/r/netsec/",
+                "description": "a community for technical news and discussion of information security and closely related topics."
+            },
+            {
+                "name": "Schneier on Security",
+                "url": "https://www.schneier.com/",
+                "description": "a blog covering security and security technology."
+            },
+            {
+                "name": "Krebs on Security",
+                "url": "https://krebsonsecurity.com/",
+                "description": "in-depth security news and investigation."
+            },
+            {
+                "name": "Threatpost",
+                "url": "https://threatpost.com/",
+                "description": "an independent news site which is a leading source of information about IT and business security."
+            },
+            {
+                "name": "Dark Reading",
+                "url": "https://www.darkreading.com/",
+                "description": "a comprehensive news and information portal that focuses on IT security."
+            },
+            {
+                "name": "Bleeping Computer",
+                "url": "https://www.bleepingcomputer.com/",
+                "description": "a website about computer technology and security."
+            },
+            {
+                "name": "The Hacker News",
+                "url": "https://thehackernews.com/",
+                "description": "a leading source of information security news."
+            }
+        ]
+    }
+}
