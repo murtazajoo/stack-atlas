@@ -15,9 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: " Stack Atlas - Knowledge Base",
+    title: "Stack Atlas - Knowledge Base",
     description:
-        "A collection of knowledge for developers, engineers, and more.",
+        "A comprehensive collection of knowledge for developers, engineers, and technology enthusiasts. This platform provides in-depth articles, tutorials, and resources to help you stay updated with the latest trends and advancements in the tech industry. Whether you are a beginner or an experienced professional, Stack Atlas offers valuable insights and practical guidance to enhance your skills and knowledge.",
+    keywords: ["knowledge base", "developers", "engineers", "technology"],
 };
 
 export default function RootLayout({

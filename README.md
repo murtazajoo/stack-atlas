@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StackAtlas
 
-## Getting Started
+StackAtlas is a curated list of tools for sysadmins, network engineers, security analysts, developers, and other IT professionals. This project aims to provide a comprehensive collection of resources categorized for easy navigation and usage.
 
-First, run the development server:
+## Categories
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The tools and resources are organized into the following categories:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   CLI Tools
+-   GUI Tools
+-   Web Tools
+-   Systems/Services
+-   Networks
+-   Containers/Orchestration
+-   Manuals/Howtos/Tutorials
+-   Inspiring Lists
+-   Blogs/Podcasts/Videos
+-   Hacking/Penetration Testing
+-   Your daily knowledge and news
+-   Other Cheat Sheets
+-   Shell One-liners
+-   Shell Tricks
+-   Shell Functions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data Source
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The data for this project is sourced from [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge). If you want to add a tool, please ensure it is also listed there.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from the community! If you have a tool or resource that you think should be included in StackAtlas, please follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes.
+4. Submit a pull request with a detailed description of your changes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Please ensure that your contributions adhere to the existing structure and format of the project.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact the maintainers.
+
+Happy contributing!
