@@ -81,7 +81,15 @@ export default function FilterSidebar({
                         className="text-sm text-gray-500"
                         style={{ marginTop: "0.25rem" }}
                     >
-                        Site under construction
+                        Find the source code on{" "}
+                        <a
+                            href="https://github.com/murtazajoo/stack-atlas"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-primary"
+                        >
+                            Github
+                        </a>
                     </p>
                 </div>
             </SidebarFooter>
